@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="ömer can gizik'in resmi web sistesi">
+    <title>omer can gizik</title>
+    <meta name="keywords" content="ömer,can,gizik,web sitesi,html,css,resmi,cv,özgeçmiş">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="sayfa">
+        <header id="banner">
+            <div id="logo">
+                <a href="index.html"><img src="resim/profil.jpg" alt="ömer can gizik" width="120px" height="90px" title="ömer can gizik"></a>
+                <p id="baslik">KİŞİSEL WEB SİTEM</p>
+
+
+            </div>
+            <div id="sosyal">
+                <a href="https://www.linkedin.com/in/%C3%B6mer-can-gizik-723640224/"><img src="resim/linkedin.png" alt="linkedin" width="50" height="40px" title="linkedin"></a>
+                <a href="https://www.instagram.com/omercangizk/"><img src="resim/instagram.png" alt="instagram" width="50" height="40px" title="instagram"></a>
+                <a href="https://twitter.com/omer_can224"><img src="resim/twitter.png" alt="twitter" width="50" height="40px" title="twitter"></a>
+                <img src="" alt="">
+                
+
+            </div>
+            
+            
+
+        </header>
+        <nav id="anamenu"><ul>
+            <li><a href="index.html">anamenü</a></li>
+            <li><a href="kimim.html">ben kimim</a></li>
+            <li><a href="iletisim.html">iletişim</a></li>
+            <li><a href="proje.html">projeler</a></li>
+            </ul>
+            
+
+
+        </nav>
+        <article id="icerik">
+            <div id="yazi">
+            <h1>Merhaba</h1>
+            <P1 id="tanitim">Ben yönetim bilişim sistemleri öğrencisiyim ve gelecekteki kariyerimi veri odaklı teknoloji alanında şekillendirmeyi hedefliyorum. Üniversite eğitimim boyunca edindiğim teknik ve temel becerileri, gerçek dünya problemlerini çözmek ve veriyi anlamlı bilgilere dönüştürmek için kullanmak istiyorum. Linkedin profilimde öğrenme sürecimi paylaşmayı düşünüyorum bağlantı kurarak deneyimlerimizi paylaşmaya her zaman açığım. Tabi ki de bu becerilerimi pekiştirmek adına ve iş dünyasında nelerle karşılaşacağımı öğrenmek için staj arayışındayım.</P1>
+            <br> <br><br><br><br><br><br><br><br><br>
+            <h1>Veri Bilimi için Temel Python Kütüphaneleri 1: NumPy</h1>
+            <p2 id="numpy">NumPy, optimize etmeyen bir bayt kodu yorumlayıcısı olan Python'un CPython referans uygulamasını hedeflemektedir. Python'un bu sürümü için yazılan matematiksel algoritmalar, genellikle derlenmiş eşdeğerlerinden çok daha yavaş çalışmaktadır. NumPy, çok boyutlu diziler ve diziler üzerinde verimli çalışan işlevler ve operatörler sağlayarak yavaşlık sorununu kısmen ele alır. Bunları yapmak için NumPy kullanarak, çoğunlukla iç döngüler olmak üzere bazı kodların yeniden yazılmasını gerekmektedir.
+
+                Python'da NumPy kullanmak, her ikisi de yorumlandığından MATLAB ile karşılaştırılabilir işlevsellik sağlamaktadır. Çoğu işlem skalerler yerine diziler veya matrisler üzerinde çalıştığı sürece, her ikisi de kullanıcının hızlı programlar yazmasına izin vermektedir[14]. Her ikisi karşılaştırıldığında, MATLAB çok sayıda ek araç kutusuna, özellikle Simulink'e sahiptir, oysa NumPy daha modern ve eksiksiz bir programlama dili olan Python ile entegredir. Ayrıca, tamamlayıcı Python paketleri mevcuttur; SciPy, daha fazla MATLAB benzeri işlevsellik ekleyen bir kütüphanedir. Ayrıca Matplotlib, MATLAB benzeri çizim işlevselliği sağlayan bir çizim paketidir. Dahili olarak, hem MATLAB hem de NumPy, verimli lineer cebir hesaplamaları için BLAS ve LAPACK'e güvenmektedir
+                
+                Yaygın olarak kullanılan bilgisayarlı görü kitaplığı OpenCV'nin Python verilerini depolamak ve üzerinde çalışmak için NumPy dizilerini kullanmaktadır. Birden çok kanala sahip görüntüler basitçe üç boyutlu diziler olarak temsil edildiğinden, indeksleme, dilimleme veya diğer dizilerle maskeleme, bir görüntünün belirli piksellerine erişmenin çok etkili yollarıdır. OpenCV'de görüntüler, çıkarılan özellik noktaları, filtre çekirdekleri ve daha pek çok şey için evrensel veri yapısı olarak NumPy dizisi, programlama iş akışını ve hata ayıklamayı büyük ölçüde basitleştirmektedir.
+                
+                ndarray veri yapısı
+                NumPy'nin temel işlevi, n-boyutlu dizi veri yapısı için "ndarray"idir. Bu diziler, bellekte adım adım görünümlerdir[7]. Python'un yerleşik liste veri yapısının aksine, bu diziler homojen olarak yazılmaktadır. Tek bir dizinin tüm elemanları aynı tipte olmalıdır.
+                
+                Bu tür diziler ayrıca C/C++, Cython ve Fortran uzantıları tarafından CPython yorumlayıcısına ayrılan bellek arabelleklerine, veri kopyalamaya gerek kalmadan mevcut sayısal kitaplıklarla bir dereceye kadar uyumluluk sağlayan görünümler olabilmektedir. Bu işlevsellik, bu tür kitaplıkları (özellikle BLAS ve LAPACK) saran SciPy paketi tarafından kullanılmaktadır. NumPy, bellek eşlemeli ndarray'ler için yerleşik desteğe sahiptir[7].
+                
+                Sınırlamalar
+                Bir diziye giriş eklemek, Python listelerinde olduğu kadar kolay bir şekilde mümkün değildir. Dizileri genişletmek için ​np.pad(...)​ yolu aslında istenen şekil ve dolgu değerlerine sahip yeni diziler yaratmaktadır. Ayrıca verilen diziyi yenisine kopyalar ve yeni diziyi döndürmektedir. NumPy'nin ​np.concatenate([a1,a2])​ işlemi aslında iki diziyi birbirine bağlamaz, ancak sırayla verilen her iki dizideki girişlerle dolu yeni bir tane döndürmektedir. Bir dizinin boyutsallığını ​np.reshape(...)​ ile yeniden şekillendirmek ancak dizideki eleman sayısı değişmediği sürece mümkündür.
+                
+                Bu koşullar, NumPy'nin dizilerinin bitişik bellek arabelleklerinde görünümler olması gerektiği gerçeğinden kaynaklanmaktadır. Blaze adlı bir değiştirme paketi bu sınırlamayı aşmaya çalışmaktadır[15].
+                
+                Vektörleştirilmiş bir işlem olarak ifade edilemeyen algoritmalar, "saf Python"da uygulanmaları gerektiğinden daha yavaş çalışmaktadır. Vektörleştirme ise bazı işlemlerin bellek karmaşıklığını sabitten doğrusala yükseltebilmektedir. Çünkü girdiler kadar büyük olan geçici diziler oluşturulmalıdır. Sayısal kodun çalışma zamanı derlemesi, bu sorunlardan kaçınmak için birkaç grup tarafından uygulanmıştır. NumPy ile birlikte çalışan açık kaynaklı çözümler arasında ​scipy.weave​, numepr[16] ve Numba[17] bulunmaktadır. Cython ve Pythran bunlara statik derleme alternatifleridir.
+                
+                Birçok modern büyük ölçekli bilimsel hesaplama uygulamasının, NumPy dizilerinin yeteneklerini aşan gereksinimleri vardır. Örneğin, NumPy dizileri genellikle büyük veri kümelerinin analizi için yetersiz kapasiteye sahip olabilecek bir bilgisayarın belleğine yüklenmektedir. Ayrıca NumPy işlemleri tek bir CPU üzerinde yürütülmektedir. Bununla birlikte, birçok doğrusal cebir işlemi, CPU kümelerinde veya birçok derin öğrenme uygulamasının güvendiği GPU'lar ve TPU'lar gibi özel donanımlarda yürütülerek hızlandırılabilmektedir.
+                
+                Sonuç olarak, son yıllarda bilimsel Python ekosisteminde dağıtılmış diziler için Dask ve GPU'lardaki hesaplamalar için TensorFlow veya JAX gibi çeşitli alternatif dizi uygulamaları ortaya çıkmıştır. Popülaritesi nedeniyle, bunlar genellikle Numpy'nin API'sinin bir alt kümesini uygulamaktadır veya onu taklit etmektedir. Böylece kullanıcılar kodlarında gereken minimum değişiklikle dizi uygulamalarını değiştirebilmektedir[18]. Nvidia'nın CUDA çerçevesi tarafından hızlandırılan ve yakın zamanda tanıtılan CUPy[19] adlı bir kitaplık, NumPy'nin 'açılan bir ikamesi' olarak daha hızlı bilgi işlem potansiyeli göstermiştir[20].</p2>
+                <br><br><br><br><br>
+                <h1>Pandas Kütüphanesinin Kullanımı</h1>
+                <p3 id="pandas">
+                    Pandas, python programlama dilinde veri analizi için kullanılan bir kütüphanedir.
+                    
+                    Numpy kütüphanesinde kullandığımız bütün fonksiyonları pandas kütüphanesinde de kullanabiliriz.
+                    
+                    Peki o zaman neden numpy kütüphanesini kullanmıyoruz da pandas kütüphanesini kullanıyoruz?
+                    
+                    Numpy kütüphanesinin en büyük eksiği sadece aynı türden verileri alabilmesidir. Mesela sayısal bir veri vermişsek bütün verilerin sayısal olarak olması gerekmektedir. Ancak bizim kullandığımız ve gerçek hayatta karşımıza çıkan birçok veri kümesi farklı veri türlerinden oluşmaktadır.
+                    
+                    Mesela bir okuldaki öğrencilerin verilerinden oluşan bir veri seti düşünün.
+                    
+                    Burada öğrencinin adı(string), boyu(float), memleketi(string), sınıftan geçip kalma durumu(boolean) gibi farklı veri türleri vardır. İşte bu tarz durumlarda numpy kütüphesi ile işlem yapamayız. Bunun yerine pandas kütüphanesini kullanmamız gerekmektedir.
+                    
+                    Pandas kütüphanesi ile kolay bir şekilde .csv, .txt, xls gibi dosyalardan veri alabilir bunlar üzerinde istediğimiz manipülasyonu yapabiliriz.
+                    
+                    Pandas kütüphanesini kurmak için konsol ekranına aşağıdaki kodu yazmamız ve enter e basmamız yeterlidir.
+                    
+                    pip install pandas
+                    Pandas kütüphanesinde temel olarak 2 veri nesnesi bulunur. Bunlar seriler ve veri çerçeveleridir.</p3>
+                    <br><br><br><br><br><br><br><br>
+            </div>
+            
+        </article>
+        <aside id="yanmenu">
+            <a href="#tanitim">Merhaba</a>
+            <br>
+            <p>Ben yönetim bilişim sistemleri öğrencisiyim ve gelecekteki...</p>
+            <br><br>
+            <a href="#numpy">Veri Bilimi Python Kütüphaneleri 1: NumPy</a>
+            <br>
+            <p>NumPy, optimize etmeyen bir bayt kodu yorumlayıcısı olan Python'un...</p>
+            <br><br>
+            <a href="#pandas">Pandas Kütüphanesinin Kullanımı</a>
+            <br>
+            <p>Pandas, python programlama dilinde veri analizi için kullanılan bir kütüphanedir. Numpy kütüphanesinde..</p>
+            
+
+        </aside>
+        <footer id="altmenu">
+            
+            <a href="index.html">anamenü</a>
+            <a href="kimim.html">ben kimim</a> 
+            <a href="iletisim.html">iletişim</a>
+            <a href="proje.html">projeler</a>
+            <br>
+            <p>tüm hakları saklıdır</p>
+        
+            
+
+        </footer>
+    </div>
+</body>
+</html>

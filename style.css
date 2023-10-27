@@ -1,0 +1,219 @@
+/* css dosyası */
+
+/* boslukları sıfırla */
+*{
+    margin: 0px ;
+    padding: 0px;
+}
+
+body{
+    background-color:rgb(143, 133, 132);
+    
+    
+    
+}
+#sayfa{
+    width: 1200px;
+    border-style: solid;
+    border-width: 1px;
+    min-height:700px;
+    margin: auto;
+    
+    
+}
+#banner{
+    width: 1198px;
+    border-style: solid;
+    border-width: 1px;
+    height: 100px;
+    margin: auto;
+    background-color:darkgray;
+
+}
+#baslik{
+    border-style: snone;
+    border-color:black;
+    background-color:rgb(227, 232, 232);
+    width: 500px;
+    position: relative;
+    bottom: 60px;
+    left: 300px;
+    position: relative;
+    bottom: 80px;
+    left: 360px;
+    
+}
+#sayfa p{
+    font-size: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:cadetblue;
+
+}
+#logo{
+    width: 120px;
+    border-style: none;
+    border-width: 1px;
+    height: 90px;
+    margin: auto;
+    background-color: rgb(229, 13, 13);
+    position: relative;
+    right:535px;
+    top: 5px;
+    
+}
+#sosyal{
+    width: 160px;
+    border-style: none;
+    border-width: 1px;
+    height: 40px;
+    background-color:darkgray;
+    float: right;
+    position: relative;
+    bottom: 50px;
+    right: 10px;
+}
+#anamenu{
+    width: 1198px;
+    border-style: solid;
+    border-width: 1px;
+    height: 50px;
+    margin: auto;
+    background-color:gray;
+    
+}
+#anamenu ul{
+    list-style-type: none;
+
+
+}
+
+#anamenu ul li{
+    border-style: solid;
+    border-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    border-width: 2px;
+    width: 90px;
+    background-color: gray;
+    float: left;
+    padding: 4px;
+    margin-left: 20px;
+    position: relative;
+    top: 9px;
+    left: 355px;
+    text-align: center;
+    
+}
+#anamenu ul a{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    font-size: 15px;
+}
+#anamenu ul a:link{
+    color: rgb(255, 255, 255);
+}
+#anamenu ul a:visited{
+    color: rgb(104, 2, 2);
+}
+#anamenu ul a:hover{
+    color:lightsalmon;
+    text-decoration: underline;
+}
+#anamenu ul a:active{
+    color: brown;
+}
+
+#icerik{
+    border-width: 1px;
+    border-style: solid;
+    width: 950px;
+    background-color: rgb(209, 209, 217);
+    min-height: 500px;
+    float: left;
+    font-size: 30px;
+    overflow: auto; /* İçerik taştığında kaydırma çubukları görünsün */
+    max-height: 500px;
+    
+}
+
+
+#yanmenu{
+    border-width: 1px;
+    border-style: solid;
+    width: 246px;
+    background-color: rgb(108, 108, 122);
+    min-height: 500px;
+    float: right;
+    overflow: auto;
+    
+    
+}
+
+#altmenu{
+    border-style: solid;
+    border-width: 1px;
+    width: 1198px;
+    background-color:cadetblue;
+    height: 100px;
+    position: relative;
+    top: 500px;
+    text-align: center;
+    
+    
+   
+    
+
+}
+#altmenu a{
+    position: relative;
+    bottom: 460px;
+    margin: 8px;
+    text-decoration: none;
+    font-size: 20px;
+    position: relative;
+    bottom: 480px;
+    
+   
+}
+
+#altmenu p{
+    color:white;
+    position: relative;
+    bottom: 460px;
+    font-size: 15px;
+    
+
+}
+#altmenu a:hover{
+    color: brown;
+    text-decoration: underline;
+}
+#altmenu a:link{
+    color: rgb(40, 45, 45);
+}
+#numpy{
+    font-size: 20px;
+}
+#pandas{
+    font-size: 20px ;
+}
+
+
+#yanmenu a{
+    font-size: 20px;
+    text-decoration: none;
+    
+    
+}
+#yanmenu p{
+    font-size: 15px;
+    
+}
+
+#yanmenu a:link{
+    color: aliceblue;
+
+}
+#yanmenu a:hover{
+    color: brown;
+    text-decoration: underline;
+}
